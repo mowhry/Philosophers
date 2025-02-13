@@ -72,11 +72,13 @@ I implemented this using **POSIX threads** (pthread_create, etc.) and **mutexes*
 - **time_to_die (ms)**: The max time a philosopher can go without eating before they die.
 - **time_to_eat (ms)**: How long it takes for a philosopher to finish eating after picking up both forks.
 - **time_to_sleep (ms)**: How long a philosopher sleeps after putting down their forks.
-- **number_of_times_each_philosopher_must_eat**: (optional) If provided, the simulation stops once all philosophers have eaten this many times.
+- **number_of_times_each_philosopher_must_eat**: (optional) If provided, the simulation stops once all philosophers have eaten this many times.  
 
-### Example:
-   ```./philo 5 800 200 200```  
-Here, I’m running a simulation with 5 philosophers, each having 800 ms before starving, 200 ms to eat, and 200 ms to sleep.
+
+**Exemple**:
+Here, I’m running a simulation with 5 philosophers, each having 800 ms before starving, 200 ms to eat, and 200 ms to sleep.   
+```./philo 5 800 200 200```
+
 ---
 
 ## 📚 Learning Outcomes
