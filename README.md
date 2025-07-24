@@ -54,7 +54,7 @@ I implemented this using **POSIX threads** (pthread_create, etc.) and **mutexes*
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/philosophers.git
+   git clone https://github.com/mowhry/philosophers.git
    cd philosophers
 2. **Build the Project:**  
 - I’ve provided a Makefile for easy compilation:
